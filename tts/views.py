@@ -11,7 +11,8 @@ def index(request):
 
 # Ajax
 @csrf_exempt # 403 error 제어
-def synthesize(request):  
+def synthesize(request):
+    print("view 도착")  
     text = request.POST['text'].strip()
     print(text)
     
