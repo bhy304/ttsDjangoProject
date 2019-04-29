@@ -187,7 +187,10 @@ dmypy.json
 # mkdocs documentation
 
 # mypy
-
+*.wav
+*.npy
+LJlogs-tacotron/
+.vscode/
 # Pyre type checker
 
 # End of https://www.gitignore.io/api/django,python
